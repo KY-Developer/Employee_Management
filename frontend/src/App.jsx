@@ -5,7 +5,7 @@ import AdminLayout from './pages/AdminLayout'
 import CompanyLayout from './pages/CompanyLayout'
 import ProtectedRoute from './pages/ProtectedRoute'
 import AdminLogin from './components/auth/AdminLogin'
-import AdminRegister from './components/auth/AdminRegister'
+// import AdminRegister from './components/auth/AdminRegister'
 import CompanyLogin from './components/auth/CompanyLogin'
 import NotFound from './pages/NotFound'
 import AdminDashboard from './components/admin/Dashboard'
@@ -54,14 +54,14 @@ function App() {
                 </RedirectIfLoggedIn>
               }
             />
-            <Route
+            {/* <Route
               path="/admin/register"
               element={
                 <RedirectIfLoggedIn>
                   <AdminRegister />
                 </RedirectIfLoggedIn>
               }
-            />
+            /> */}
             <Route
               path="/company/login"
               element={

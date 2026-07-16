@@ -129,16 +129,6 @@ const handleSubmit = async (e) => {
             </button>
           </div>
         </form>
-        <div className="text-center mt-4 text-sm">
-  <span className="text-gray-600">Don't have an account? </span>
-  <Link
-    to="/admin/register"
-    className="font-medium text-primary-600 hover:text-primary-500"
-  >
-    Sign up
-  </Link>
-</div>
-
       </div>
     </div>
   )
